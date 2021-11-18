@@ -1,3 +1,13 @@
-h1 {
-    font-family: "Audrey", serif;
+/* .agent-info {
+    margin-top: 350px;
+} */
+
+.agent-section-right h1 {
+    font-family: "Audrey", sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.agent-left-image {
+    background-image: url("/images/TCR1-1A.jpg");
 }
