@@ -59,3 +59,19 @@ h5 {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 } */
+
+.social-links a {
+    margin: 0 20px;
+    color: black;
+    background: white;
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+    color: white;
+    background: darkgreen;
+    border: 1px solid black;
+};
