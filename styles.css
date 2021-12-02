@@ -60,6 +60,19 @@ h5 {
     border: 1px solid var(--primary-color);
 } */
 
+
+
+
+.disclaimer p {
+    font-size: smaller;
+}
+
+.agent-description {
+    font-size: 15px;
+
+    
+}
+
 .social-links a {
     margin: 0 20px;
     color: black;
@@ -75,3 +88,16 @@ h5 {
     background: darkgreen;
     border: 1px solid black;
 };
+
+.imgContainer-mlslogo {
+    height: 45px;
+    width: 145px;
+}
+
+@media (max-width: 900px) {
+    .imgContainer-mlslogo {
+        height: 45px;
+        width: 145px;
+    }
+
+}
