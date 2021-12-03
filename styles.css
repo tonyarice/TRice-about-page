@@ -60,7 +60,11 @@ h5 {
     border: 1px solid var(--primary-color);
 } */
 
-
+.about-text {
+    font-size: 15px;
+    margin: 0px 0px 60px;
+    padding: 0px 0px 60px;
+}
 
 
 .disclaimer p {
@@ -68,9 +72,7 @@ h5 {
 }
 
 .agent-description {
-    font-size: 15px;
-
-    
+    font-size: 15px; 
 }
 
 .social-links a {
