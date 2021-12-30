@@ -1,20 +1,18 @@
-:root { 
-    --default-font-family: 'Raleway', sans-serif;
+/* :root { 
+    --default-font-family: 'Playfair Display', serif;
+} */
 
-
-}
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
-    font-family: 'Ballet', cursive;
-font-family: 'Fondamento', cursive;
-font-family: 'Great Vibes', cursive;
-font-family: 'Pinyon Script', cursive;
+    /* font-family: 'Ballet', cursive;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Pinyon Script', cursive; */
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    
+    font-family: 'Playfair Display', serif;  
 }
 
 h2 {
@@ -35,15 +33,48 @@ h5 {
 /* p {
     font-family: 'Audrey', serif;
 } */
-
-.agent-section-right-container {
-    text-align: left;
-    margin: 95px auto;
-    padding-top: 25px;
-    padding-left: 150px;
-    padding-right: 150px;
-    
+.page-name {
+    text-align: right;
+    padding-top: 75px;
+    padding-right: 25px;
+    z-index: -1;  
 }
+
+.watermarked {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 175px;
+    opacity: 0.1; 
+}
+
+/* .wrapper {
+    max-height: 0;
+    
+} */
+
+.wrapper {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    /* margin: 0 0 0 45px; */
+    /* margin: 10px auto; */
+    padding: 0 30% 0 15%;
+    /* padding-top: 25px;
+    padding-left: 150px; */
+    /* padding-right: 150px;  */
+}
+
+.agent-section-right p {
+    /* padding-right: 300px; */
+    font-size: 15px;
+    /* padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px; */   
+}
+
+.agent-section-left {
+    padding-top: 50px;
+}
+
 
 /* 
 
@@ -68,9 +99,9 @@ h5 {
     margin-left: 200px;
 } */
 
-.agent-left-image {
+/* .agent-left-image {
     background-image: url("/images/TCR1-1A.jpg");
-}
+} */
 
 /* .btn-branding {
     background: var(--branding-color);
@@ -104,7 +135,7 @@ h5 {
 
 
 .disclaimer p {
-    font-size: smaller;
+    font-size: 12px;
 }
 
 .agent-description {
