@@ -80,6 +80,12 @@ h5 {
 }
 
 
+.bellevue-pic {
+    padding-top: 25px;
+    padding-right: 75px;
+    z-index: -1;  
+}
+
 /* 
 
 .agent-section-right h1 {
