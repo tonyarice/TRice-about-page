@@ -86,6 +86,18 @@ h5 {
     z-index: -1;  
 }
 
+/* .location {
+    position: relative;
+    text-align: center;
+    color: white;
+} */
+
+.card-body {
+    background-image: url("images/interior-staircase3.jpg");
+}
+
+
+
 /* 
 
 .agent-section-right h1 {
@@ -168,10 +180,16 @@ h5 {
     border: 1px solid black;
 };
 
-.imgContainer-mlslogo {
+/* .imgContainer-brand {
+    height: 116px;
+    width: 150px;
+} */
+
+/* .imgContainer-mlslogo {
     height: 45px;
-    width: 145px;
-}
+    width: 145px; 
+} */
+
 
 @media (max-width: 900px) {
     .imgContainer-mlslogo {
