@@ -92,10 +92,24 @@ h5 {
     color: white;
 } */
 
-.card-body {
-    background-image: url("images/interior-staircase3.jpg");
+
+.neighborhood-items h3 {
+    text-align: center;
 }
 
+.neighborhood-items  {
+    text-align: center;
+    font-size: smaller;
+}
+
+.neighborhood-items a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.neighborhood-items a:hover {
+    color: darkslategrey;
+}
 
 
 /* 
