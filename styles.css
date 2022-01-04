@@ -31,6 +31,22 @@ h5 {
     font-weight: 400;
 }
 
+h6 { 
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+a {
+    color: var(--branding-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 /* p {
     font-family: 'Audrey', serif;
 } */
@@ -164,6 +180,7 @@ h5 {
 .btn-branding:hover {
     background: var(--secondary-color);
     color: white;
+    text-decoration: none;
     border-radius: 4px;
     border: 1px solid var(--secondary-color);
     font-size: 18px;
@@ -191,6 +208,18 @@ h5 {
     padding: 0px 0px 60px;
 }
 
+blockquote {
+    padding-right: 75px;
+    margin: 0; 
+}
+
+blockquote p {
+    padding: 25px 35px;
+    background: burlywood;
+    border-radius: 5px;
+    text-align: justify;
+}
+
 
 .disclaimer p {
     font-size: 12px;
@@ -198,6 +227,15 @@ h5 {
 
 .agent-description {
     font-size: 15px; 
+}
+
+.contact a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 .social-links a {
@@ -215,6 +253,7 @@ h5 {
     background: var(--branding-color);
     border: 1px solid white;
 };
+
 
 #credit {
     font-size: smaller;
