@@ -220,6 +220,47 @@ blockquote p {
     text-align: justify;
 }
 
+.contact-wrapper {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    /* margin: 0 0 0 45px; */
+    /* margin: 10px auto; */
+    padding: 0 30% 0 15%;
+    /* padding-top: 25px;
+    padding-left: 150px; */
+    /* padding-right: 150px;  */
+}
+
+.contact-section-right p {
+    /* padding-right: 300px; */
+    font-size: 15px;
+    /* padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px; */   
+}
+
+.contact-section-left {
+    padding-top: 50px;
+}
+
+.contact-section-left .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-section-left .overlay h3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
 
 .disclaimer p {
     font-size: 12px;
