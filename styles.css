@@ -26,6 +26,11 @@ h3 {
     font-family: 'Playfair Display', serif;
 }
 
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
 h5 {
     font-family: 'Audrey', serif;
     font-weight: 400;
@@ -220,6 +225,22 @@ blockquote p {
     text-align: justify;
 }
 
+.watermarked {
+    font-size: 125px;
+}
+
+.local {
+    text-align: center;
+}
+
+.container .buyer-resources  {
+    margin-right: 15px;
+} 
+
+.buyer-resources .btn-branding {
+    font-size: 15px;
+} 
+
 .contact-wrapper {
     width: 100%;
     max-width: 100%;
@@ -304,6 +325,8 @@ blockquote p {
     font-style: italic;
     font-size: x-small;
 }
+
+
 
 /* .imgContainer-brand {
     height: 116px;
