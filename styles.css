@@ -233,6 +233,10 @@ blockquote p {
     text-align: center;
 }
 
+.local h3 {
+    font-style: italic;
+}
+
 .container .buyer-resources  {
     margin-right: 15px;
 } 
