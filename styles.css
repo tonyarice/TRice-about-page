@@ -68,8 +68,12 @@ a:hover {
     opacity: 0.1; 
 }
 
-.disclaimer-page {
+/* .disclaimer-page {
     margin-top: 125px;
+} */
+
+.terms-navigation {
+    margin-top: 70px;
 }
 
 
