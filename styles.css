@@ -64,9 +64,15 @@ a:hover {
 
 .watermarked {
     font-family: 'Pinyon Script', cursive;
-    font-size: 175px;
+    font-size: 125px;
     opacity: 0.1; 
 }
+
+.disclaimer-page {
+    margin-top: 125px;
+}
+
+
 
 /* .wrapper {
     max-height: 0;
@@ -236,9 +242,7 @@ blockquote p {
     text-align: justify;
 }
 
-.watermarked {
-    font-size: 125px;
-}
+
 
 .local {
     text-align: center;
