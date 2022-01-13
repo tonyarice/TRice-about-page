@@ -117,6 +117,13 @@ a:hover {
     z-index: -1;  
 }
 
+.richmond p {
+    font-size: 24px;
+    font-style: italic;
+    padding: 25px 45px;
+    text-shadow: 1px 2px black;
+}
+
 /* .location {
     position: relative;
     text-align: center;
@@ -209,8 +216,12 @@ a:hover {
 
 .about-text {
     font-size: 15px;
-    margin: 0px 0px 60px;
-    padding: 0px 0px 60px;
+    /* margin: 0px 0px 60px;
+    padding: 0px 0px 60px; */
+}
+
+.about-text a {
+    color: darkslategray;
 }
 
 blockquote {
