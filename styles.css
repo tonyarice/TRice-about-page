@@ -305,6 +305,10 @@ blockquote p {
     color: white;
 }
 
+.disclaimer-text h5 {
+    text-transform: uppercase;
+}
+
 
 .disclaimer p {
     font-size: 12px;
